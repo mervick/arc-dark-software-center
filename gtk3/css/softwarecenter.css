@@ -1,0 +1,102 @@
+@define-color light-aubergine #383C4A;
+@define-color super-light-aubergine #474B56;
+@define-color fg-color #D3DAE3;
+
+/*
+   do not use text-shadow until bugzilla.gnome.org bug #686209 is
+   fixed - its leaking memory
+*/
+
+
+#featured-star {
+    border-color: #F89516;  /* yellow */
+    color: #FFC51D;         /* orange */
+}
+
+.grid-lines {
+    border-color: shade (@light-aubergine, 1.025);
+}
+
+#screenshot-preview {
+    border-color: #000;
+    color: #000;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.backforward-left-button {
+    border-radius: 3px 0 0 3px;
+}
+
+.backforward-right-button {
+    border-radius: 0 3px 3px 0;
+}
+
+.subtle,
+#subtle-label {
+    -GtkWidget-link-color: shade (@super-light-aubergine, 0.5);
+    -GtkWidget-visited-link-color: shade (@super-light-aubergine, 0.6);
+    color: shade (@super-light-aubergine, 0.5); /* non-link text color */
+    color: @fg-color;
+}
+
+.cellrenderer-button {
+    border-radius: 3px;
+}
+
+.cellrenderer-avgrating-label {
+    color: @fg-color;
+}
+
+.cellrenderer-avgrating-label:selected {
+    color: white;
+}
+
+.more-link {
+    -GtkButton-inner-border: 0;
+    -GtkButton-default-border: 0;
+    -GtkButton-default-outside-border: 0;
+    color: @fg-color;
+    background-color: shade (@super-light-aubergine, 0.925);
+    border-color: shade (@super-light-aubergine, 0.875);
+}
+
+.frame-header-title {
+    /* intentionally left blank */
+}
+
+.item-view-separator {
+    border-color: shade (@light-aubergine, 0.9);
+    border-width: 1px;
+}
+
+.light-aubergine-bg {
+    background-color: @light-aubergine;
+}
+
+.super-light-aubergine-bg {
+    background-color: @super-light-aubergine;
+    border-color: shade (@super-light-aubergine, 0.975)
+}
+
+GtkViewport {
+    background-color: @super-light-aubergine;
+    border-width: 0;
+    padding: 0;
+}
+
+GtkTreeView {
+    background-color: @super-light-aubergine;
+}
+
+GtkTreeView:selected {
+    background-color: @selected_bg_color;
+}
+
+#toolbar-popup {
+    padding: 0;
+}
+
+body {
+    background-color: @super-light-aubergine;
+}
