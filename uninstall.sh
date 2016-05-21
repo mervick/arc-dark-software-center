@@ -11,9 +11,9 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 function restore() {
-    if [ -e "$1~" ]; then
+    if [ -e "$1.backup" ]; then
         rm "$1"
-        mv "$1~" "$1"
+        mv "$1.backup" "$1"
     fi;
 }
 
