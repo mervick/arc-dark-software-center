@@ -11,8 +11,8 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 function backup() {
-    if [ ! -e "$1~" ]; then
-        mv "$1" "$1~"
+    if [ ! -e "$1.backup" ]; then
+        mv "$1" "$1.backup"
     fi;
 }
 
