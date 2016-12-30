@@ -1,5 +1,5 @@
 # Arc-Dark for Ubuntu Software Center
-[Arc Dark](https://github.com/horst3180/arc-theme) theme with Ubuntu Software Center
+[Arc Dark](https://github.com/horst3180/arc-theme) theme for Ubuntu Software Center
 
 
 ### Installation 
