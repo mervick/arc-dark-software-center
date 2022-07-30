@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct.svg)](https://stand-with-ukraine.pp.ua/)
+
 # Arc-Dark for Ubuntu Software Center
 [Arc Dark](https://github.com/horst3180/arc-theme) theme for Ubuntu Software Center
 
